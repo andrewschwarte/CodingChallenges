@@ -18,9 +18,8 @@ P: create a function that takes in an array and an int target.
 
 
 function twoSum(numbers, target) {
-    let a, b
     for(let i = 0; i < numbers.length; i++){
-       for(let j = 0; j < numbers.length; j++){
+       for(let j = i + 1; j < numbers.length; j++){
         if (numbers[i] + numbers[j] === target) 
             return [i, j]
        }
