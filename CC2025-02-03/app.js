@@ -7,7 +7,7 @@ function isPangram(string){
     let lowerCase = string.toLowerCase()
     let letters = 'abcdefghijklmnopqrstuvwxyz'
     for(let letter of letters){
-    if(!lowerCase.includes(letters))
+    if(!lowerCase.includes(letter))
         return false
     }
     return true
