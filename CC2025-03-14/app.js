@@ -10,9 +10,7 @@
 //     diff21(10) → 11
 //     diff21(21) → 0
 
-function diff21(n){
-  else if(n>21)
-    return (n - 21) * 2
-  else if (n<=21)
-    return (n-21) / -1
+function diff21(n) {
+  if (n > 21) return (n - 21) * 2;
+  else if (n <= 21) return (n - 21) / -1;
 }
